@@ -71,6 +71,7 @@ node*dltNode(node*root,int val){
             root->right = dltNode(root->right,temp->data);
         }
     }
+    return root ;
 }
 int height(node*root){
     if(root==nullptr) return 0;
